@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
+cd factory
+
 git fetch --all
 git reset --hard origin/master
 
-python3 factory/gfwlist.py
-python3 factory/build_confs.py
+python3 gfwlist.py
+python3 build_confs.py
 cd ..
 
 git add .
