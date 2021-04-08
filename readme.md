@@ -1,6 +1,8 @@
 ## 我的 Shadowrocket 规则
 
-这里是一系列好用的翻墙规则，针对 [Shadowrocket](https://liguangming.com/Shadowrocket) 开发，支持广告过滤。规则定义了哪些网站可以直连，哪些必须走代理，规则是一个纯文本文件，无法提供翻墙功能。使用 Python 按照一定的规则和模板定期自动生成，并且使用开源的力量，集众人之力逐渐完善。
+这是我根据[github.com/h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) 修改的一个代理规则
+去掉了广告过滤功能 添加了一些对我来说需要代理的网站
+
 
 **本规则具有以下特点：**
 
@@ -19,31 +21,21 @@
 - 直连：正常的网站
 - 不包含广告过滤
 
-规则地址：<https://git.io/JfIXS>
-
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_banlist.png?1)
-
+规则地址：<https://raw.githubusercontent.com/qwqoo/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist.conf>
 
 ## 白名单过滤
-
-现在很多浏览器都自带了广告过滤功能，而广告过滤的规则其实较为臃肿，如果你不需要全局地过滤 App 内置广告和视频广告，可以选择这个不带广告过滤的版本。
 
 - 直连：top500 网站中可直连的境外网站、中国网站
 - 代理：默认代理其余的所有境外网站
 - 不包含广告过滤
 
-规则地址：<https://git.io/JfIXh>
-
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_whitelist.png?1)
-
+规则地址：<https://raw.githubusercontent.com/qwqoo/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist.conf>
 
 ## 国内外划分
 
 国内外划分，对中国网站直连，外国网站代理。不包含广告过滤。国外网站总是走代理，对于某些港澳台网站，速度反而会比直连更快。
 
-规则地址：<https://git.io/JfI1q>
-
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_cnip.png?1)
+规则地址：<https://raw.githubusercontent.com/qwqoo/Shadowrocket-ADBlock-Rules/master/sr_cnip.conf>
 
 ## 回国规则
 
@@ -53,6 +45,4 @@
 - 代理：中国网站
 - 不包含广告过滤
 
-规则地址：<https://git.io/JfI1s>
-
-![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_backcn.png?1)
+规则地址：<https://https://raw.githubusercontent.com/qwqoo/Shadowrocket-ADBlock-Rules/master/sr_backcn.conf>
