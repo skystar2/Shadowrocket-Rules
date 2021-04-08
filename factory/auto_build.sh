@@ -1,14 +1,10 @@
 #!/usr/bin/env bash
 
-Path=$PWD
-cd $Path
-
 git fetch --all
 git reset --hard origin/master
 
-cd factory
-python3 gfwlist.py
-python3 build_confs.py
+python3 factory/gfwlist.py
+python3 factory/build_confs.py
 cd ..
 
 git add .
