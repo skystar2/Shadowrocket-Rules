@@ -9,7 +9,6 @@ import time
 confs_names = [
     'sr_top500_banlist',
     'sr_top500_whitelist',
-    'sr_proxy_banad',
     'sr_cnip', 
     'sr_backcn'
 ]
