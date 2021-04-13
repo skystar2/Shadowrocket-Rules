@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd factory
+cd factory || exit
 
 git fetch --all
 git reset --hard origin/master
