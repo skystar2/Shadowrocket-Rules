@@ -23,7 +23,7 @@ jobs:
         if [ -f factory/requirements.txt ]; then pip install -r factory/requirements.txt; fi
     - name: autu_build
       run: |
-        git config user.email "me@ewv.cc"
-        git config user.name "qwqoo"
+        git config user.email "abcqys@gmail.com"
+        git config user.name "skystar2"
         bash factory/auto_build.sh
 
